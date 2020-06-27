@@ -14,7 +14,7 @@ function c_saludo(request, response) {
 }
 
 function c_despedida(request, response) {
-    response.send('Adios Jaime');
+    response.send('Adios Jaime...');
 }
 
 function c_server() {
