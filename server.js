@@ -6,7 +6,7 @@ app.use('/', rutas);
 app.set('view engine', 'ejs');
 
 function c_server() {
-    console.log('Escuchando en puerto 3000');
+    console.log('Escuchando en puerto 3000 !!!');
 }
 
 var server = app.listen(3000, c_server);

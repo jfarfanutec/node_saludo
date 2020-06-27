@@ -10,7 +10,7 @@ function c_inicio(request, response) {
 }
 
 function c_saludo(request, response) {
-    response.send('Hola Jaime');
+    response.send('SALUDO Jaime');
 }
 
 function c_despedida(request, response) {
